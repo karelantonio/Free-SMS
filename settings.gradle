@@ -1,0 +1,6 @@
+/*
+ * Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+ */
+
+rootProject.name = "Free SMS"
+include ':app'

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="@string/pref.screen.net">
+
+        <Preference
+            android:title="@string/pref.proxy.title"
+            android:summary="@string/pref.proxy.summary">
+
+            <intent
+                android:targetPackage="cu.kareldv.android.freesms"
+                android:targetClass="cu.kareldv.android.freesms.view.activities.ActivityEditProxies"/>
+
+        </Preference>
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/pref.screen.textbelt">
+
+        <EditTextPreference
+            android:defaultValue="textbelt"
+            android:key="@string/pref.textbeltkey.key"
+            android:summary="@string/pref.textbeltkey.summary"
+            android:title="@string/pref.textbeltkey.title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

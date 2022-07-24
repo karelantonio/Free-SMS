@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+  -->
+
+<resources>
+    <string name="app_name">Free SMS</string>
+    <string name="str.send">Enviar</string>
+    <string name="str.status">Estado</string>
+    <string name="str.settings">Ajustes</string>
+    <string name="str.add_proxy">Agregar Proxy</string>
+    <string name="str.newproxy">Nuevo Proxy</string>
+    <string name="btn.send">Enviar</string>
+    <string name="hint.phonenumber">Numero de Teléfono</string>
+    <string name="hint.message">Mensaje</string>
+    <string name="pref.screen.textbelt">Configuracion de Textbelt</string>
+    <string name="pref.screen.net">Red</string>
+    <string name="pref.textbeltkey.title">Clave de Textbelt</string>
+    <string name="pref.textbeltkey.summary">La clave que se usará al pedir el envio de mensajes al servidor</string>
+    <string name="pref.proxy.title">Proxy</string>
+    <string name="pref.proxy.summary">Presiona aquí para ver tus proxys guardados</string>
+    <string name="dialog.reqcontact">Selecciona un numero de teléfono</string>
+    <string name="dialog.contactspermission.title">Permiso necesario</string>
+    <string name="dialog.contactspermission.msg">Es necesario que permitas a la app acceder a tus contactos para así poder seleccionar un numero de teléfono</string>
+    <string name="dialog_contactspermission.btnaccept">Permitir</string>
+    <string name="dialog_contactspermission.btncancel">Cancelar</string>
+    <string name="dialog.badconfigurated.title">Mal configurado</string>
+    <string name="dialog.badconfigurated.msg.nokey">Debes especificar una clave válida in los ajustes (o usar \"textbelt\" por defecto)</string>
+    <string name="dialog.baddata.title">Datos Inválidos</string>
+    <string name="dialog.baddata.nophonespecified">No has especificado un numero de telefono válido. Este no deberia estar vacío y debe comenzar con el código internacional (Ej: +XX54321234)</string>
+    <string name="dialog.baddata.nomessage">Debes especificar un mensaje, no puede estar vacío</string>
+    <string name="dialog.neterror.title">Error de red</string>
+    <string name="dialog.neterror.msgformat">Ha ocurrido un error de red (%s). Revise su conexión a internet y vuelva a intentarlo</string>
+    <string name="dialog.servererror.title">Error del Servidor</string>
+    <string name="dialog.servererror.msgformat">El servidor se ha negado a enviar el mensaje: %s</string>
+    <string name="dialog.sendsuccess.title">Mensage Enviado</string>
+    <string name="dialog.sendsuccess.msgformat">El mensaje ha sido enviado correctamente, vaya a la página de \"Estado\" y presione recargue la página para conocer el estado del mensaje (Enviando, Entregado, etc)</string>
+    <string name="menu.item.info">Información</string>
+    <string name="dialog.items.pickoption.title">Selecciona una acción</string>
+    <string name="dialog.items.pickoption.copyphone">Copiar Telefono</string>
+    <string name="dialog.items.pickoption.copymsg">Copiar Mensaje</string>
+    <string name="dialog.items.pickoption.getstate">Ver Estado del mensaje</string>
+    <string name="snack.copiedcorrectly">Copiado correctamente</string>
+    <string name="dialog.info.title">Informacion sobre la App</string>
+    <string name="dialog.info.msg">Esta app esta destinada a ser un ejemplo Opensource de como utilizar la API de mensajería de Textbelt. No deberia ser usada para SPAM o cosas así. Desarrollada con &lt;3 por Karel. Busca en Github el codigo. Valora y comenta si te gustó</string>
+    <string name="dialog.info.gotoapklis">Ir a Apklis</string>
+    <string name="dialog.info.thanks">Agradecimientos</string>
+    <string name="dialog.info.twitter">Abrir Twitter</string>
+    <string name="dialog.statuserr.title">Error</string>
+    <string name="dialog.statuserr.msg">Ha ocurrido un error mientras se pedía el estado del mensaje: %s</string>
+    <string name="dialog.statusresp.title">Estado del mensaje</string>
+    <string name="dialog.statusresp.status.sending">El mensaje se está enviando</string>
+    <string name="dialog.statusresp.status.unknown">No sabemos el estado del mensaje</string>
+    <string name="dialog.statusresp.status.failed">El mensaje no pudo ser enviado</string>
+    <string name="dialog.statusresp.status.delivered">El mensaje se entregó correctamente a la operadora</string>
+    <string name="dialog.statusresp.status.sent">El mensaje se envió correctamente</string>
+    <string name="dialog.items.pickoption.deleteitem">Borrar Elemento</string>
+    <string name="dialog.items.pickoption.clearitems">Vaciar Historial</string>
+</resources>

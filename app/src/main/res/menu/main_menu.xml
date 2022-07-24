@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItemInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/menu.item.info"
+        app:showAsAction="always" />
+
+</menu>

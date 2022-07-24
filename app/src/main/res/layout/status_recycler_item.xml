@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+  -->
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="10sp">
+
+        <RelativeLayout
+            android:layout_width="35sp"
+            android:layout_height="60sp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:padding="5sp"
+                app:cardCornerRadius="5sp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/statusItemIcon"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    tools:src="@drawable/ic_baseline_warning_24" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/statusItemTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="2sp"
+                android:lines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="Example title" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/statusItemMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lines="2"
+                tools:text="Probando el textoooooooooooooooooooooooooooooooooooooooooo" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#E3E3E3" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

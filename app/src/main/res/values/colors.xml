@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022. by Karel, under GPLv2 see the "license page"
+  -->
+
+<resources>
+    <color name="primary">#00A2E8</color>
+    <color name="primaryDark">#0091CE</color>
+    <color name="secondary">#ED1C24</color>
+    <color name="secondaryDark">#E7121D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
